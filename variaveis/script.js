@@ -25,3 +25,13 @@ var nome = 'André',
     // Camel case: 
     
 
+//mudar valor atribuido só com var e let, const não funciona.
+
+var idade = 18;
+    idade = 20;
+
+let preco = 50;
+    preco = 70;
+
+const possuiFaculdade = true;
+    possuiFaculdade = false;
