@@ -19,3 +19,9 @@ var nome = 'André',
 
     console.log(nome, idade, possuiFaculdade);
 
+    var semDefinir;
+    console.log(semDefinir);
+
+    // Camel case: 
+    
+
