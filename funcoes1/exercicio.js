@@ -36,6 +36,19 @@ console.log(nomeCompleto())
 
 // Crie uma função que verifica se um número é par
 
+function numimpar () {
+    var num1 = 4
+
+    if (num1 % 2 == 0 ) {
+        console.log('PAR');
+    }else{
+        console.log('ÍMPAR');
+    }
+    
+}
+
+console.log(numimpar())
+
 // Crie uma função que retorne o tipo de
 // dado do argumento passado nela (typeof)
 
