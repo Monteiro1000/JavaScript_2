@@ -20,15 +20,16 @@ function imc(peso, altura) {
 console.log(imc(80, 1.8))
 
 function corFavorita(cor) {
-    if (cor === 'azul') {
-        return 'Você gosta do céu'
-    } else if (cor === 'verde') {
-        return 'Você gosta de mato'
+    if (cor === 'Azul') {
+        return 'Você gosta do céu';
+    }
+    else if (cor === 'verde') {
+        return 'Você gosta de mato';
     } else {
         return 'Você não gosta de nada'
     }
+
 }
-console.log(corFavorita());
 
 
 addEventListener ('click', function() {
