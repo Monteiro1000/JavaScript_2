@@ -33,19 +33,16 @@ var cachorro = {
     raca: 'Labrador',
     cor: 'black',
     idade: 10,
-    pessoa: 'mulher',
 
-latir(late) {
+latir(pessoa) {
 
-    if(cachorro.pessoa === 'homem') {
-
-        addEventListener('click', function(latir) {
-    console.log('Au au au!')
-} );
-    }else{
-        return 'É uma mulher';
-    };
+    if(pessoa === 'homem') {
+        return 'Latir';
+    }else {
+        return 'Nada';
+    }
 },
+    
     
 };
 
