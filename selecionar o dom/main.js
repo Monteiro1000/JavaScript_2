@@ -26,11 +26,21 @@
 // // Retorna o segundo elemento
 // console.log(gridSection[1]);
 
-const primeiraUl = document.querySelector('ul')
-const gridSectionHTML = document.getElementsByClassName('grid-section');
-const gridSectionNode = document.querySelectorAll('.grid-section');
+// const primeiraUl = document.querySelector('ul')
+// const gridSectionHTML = document.getElementsByClassName('grid-section');
+// const gridSectionNode = document.querySelectorAll('.grid-section');
 
-primeiraUl.classList.add('grid-section');
+// primeiraUl.classList.add('grid-section');
 
-console.log(gridSectionHTML);
-console.log(gridSectionNode);
+// console.log(gridSectionHTML[0]);
+// console.log(gridSectionNode[0]);
+
+// gridSectionNode.forEach(function(item, index){
+//   console.log(item)
+// });
+
+// const arrayGrid = Array.from(gridSectionHTML);
+
+// arrayGrid.forEach(function(item){
+//   console.log(item)
+// })
